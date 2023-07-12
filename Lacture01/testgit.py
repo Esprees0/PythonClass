@@ -5,8 +5,7 @@
 # S = random.randrange(1,100)
 # t = int(input("Let's try: "))
 
-# while True:
-    
+# while :   
 #     if t == S :
 #         print("correct")
 #     elif t <= S :
