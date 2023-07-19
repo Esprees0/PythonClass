@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e">
+    <diagram id="6feyujgi39ATmVzR0r1w" name="Page-1">
+        <mxGraphModel dx="1614" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;fontSize=19;entryX=0.497;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;Start&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="140" width="250" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fontSize=19;entryX=0.466;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="The first test score" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="340" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;fontSize=19;entryX=0.5;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="The second test score" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="530" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontSize=19;" parent="1" source="5" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="The third test score" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="720" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;fontSize=17;" parent="1" source="10" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Calculate teh average All score" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="910" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.584;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="717" y="1455"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontSize=17;" parent="1" source="12" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Score &amp;gt; 95" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="387.5" y="1360" width="205" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;fontSize=17;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="1640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;print('Congratulatetions1')&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1570" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;End&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="1790" width="250" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Fail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="1570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="1420" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;fontSize=17;" parent="1" source="22" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;print(average)&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="1150" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;fontSize=17;" parent="1" source="27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="1790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="477.5" y="1627.5" width="25" height="25" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
