@@ -1,17 +1,23 @@
 In_str = str(input("Enter a string:"))
 print("This is what I found about that string")
 
-if In_str == str.isalnum:
-    print("The string is alphanumeric.")
-elif In_str == str.isalpha:
+if (In_str.isalnum()) == True:
+    print("The string is alphanumeric.")   
+
+if (In_str.isalpha()) == True:
     print("The string contains only alphabetic characters")
-elif In_str == str.islower:
+
+if (In_str.islower()) == True:
     print("The letters in the string are all lowercase")
-elif In_str == str.isnumeric:
+
+if (In_str.isnumeric()) == True:
     print("The string contains only digits.")
-elif In_str == str.isspace:
+
+if (In_str.isspace()) == True:
     print("The string contains only whitespace")
-elif In_str == str.istitle:
+
+if (In_str.istitle()) == True:
     print("The string is in title case")
-elif In_str == str.isupper:
+    
+if (In_str.isupper()) == True:
     print("The letters in the string are all Uppercase")
