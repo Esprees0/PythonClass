@@ -10,8 +10,8 @@ def main():
 
     infile.close()
 
-    print(line1)
-    print(line2)
-    print(line3)
+    print('eie'+line1)
+    print('oo'+line2)
+    print('pp' +line3)
 
 main()
