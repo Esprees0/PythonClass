@@ -11,4 +11,10 @@ if key in phonebook:
 else:
     print(key + ' not in phonebook')
 
-phonebook['Simpson']
+phonebook['Simpson'] = '777-4567'
+phonebook['Pluto'] = '777-4444'
+phonebook['Mickey'] = '777-2122'
+print(phonebook)
+
+del phonebook['Simpson']
+print(phonebook)
