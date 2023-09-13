@@ -8,7 +8,7 @@ def main():
     while not end_of_file:
         try: 
             person = pickle.load(input_file)
-            display_data[person]
+            display_data(person)
         except EOFError:
             end_of_file = True
     input_file.close()
