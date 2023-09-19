@@ -20,10 +20,10 @@ def Sortedlist_Descend(Listname):
 
 print("What do you want to do" "\n1.Display hero" "\n2.Add heros" "\n3.Insert heros" "\n4.Renove heros" "\n5.Display Sorted Heros" "\n6.Exit")
 
-while Make_loop.lower == 'y':
+while Make_loop.lower() == 'y':
     Make_list = int(input("Select :"))
     if Make_list == 1:
-        Show_hero(Listname)
+        (Show_hero(Listname))
     elif Make_list == 2:
         Select_heros = str(input("Hero you choose :"))
         addhero(Select_heros)
@@ -39,16 +39,16 @@ while Make_loop.lower == 'y':
 
     elif Make_list == 5:
         sorted_hero = str(input("Ascending/Descending (A/D):"))
-        if sorted_hero.upper == "A":
+        if sorted_hero.upper() == "A":
             Sortedlist_Ascend(Listname)
-        elif sorted_hero.upper == "D":
-                Sortedlist_Descend(Listname)
+        elif sorted_hero.upper() == "D":
+            Sortedlist_Descend(Listname)
         elif Make_list == 6:
             break
-        print(Listname)
-        Make_loop = str(input("Do you want to do again? (y/n):"))
+    print(Listname)
+    Make_loop = str(input("Do you want to do again? (y/n):"))
             
-print("The result",Listname)
+
 
 
 
