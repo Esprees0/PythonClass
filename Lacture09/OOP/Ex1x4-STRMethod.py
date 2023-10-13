@@ -14,3 +14,8 @@ class StudentTest:
 std1 = StudentTest('Jantra', 20, 35, 25)
 print(std1.name, std1.sumScore())
 print(std1)
+
+
+
+
+

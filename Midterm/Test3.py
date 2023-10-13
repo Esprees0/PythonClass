@@ -23,7 +23,6 @@ def capToFront(word):
     non_capital_letters = ""
 
     for char in word:
-        print(char)
         if char.isupper():
             capital_letters += char
         else:
